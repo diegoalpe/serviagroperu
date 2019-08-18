@@ -38,7 +38,7 @@
       <div class = "row">
         <div class = "col-xs-3">
           <div class="login-box-image">
-              <img src="../imagenes/logoWeb.png" style="width: 100%; height: 210px"/>
+              <img src="../imagenes/2.png" style="width: 100%; height: 210px"/>
           </div>
         </div>
         <div class = "col-xs-1">
