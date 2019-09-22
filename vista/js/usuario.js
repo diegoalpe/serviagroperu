@@ -34,7 +34,6 @@ function listar(){
                 html += '<td>'+item.usuario+'</td>';
                 html += '<td>'+item.estado+'</td>';
                 html += '<td align="center">';
-		html += '<button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#myModal" onclick="leerDatos(' + item.codigo_usuario + ')"><i class="fa fa-pencil"></i></button>';
 		html += '&nbsp;&nbsp;';
 		html += '<button type="button" class="btn btn-danger btn-xs" onclick="eliminar(' + item.codigo_usuario + ')"><i class="fa fa-close"></i></button>';
                 html += '</td>';
