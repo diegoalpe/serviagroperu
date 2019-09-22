@@ -3,17 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/xampp/htdocs/serviagroperu/negocio/Agricultor.clase.php</file>
             <file>file:/C:/xampp/htdocs/serviagroperu/webservice/token.generar.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/webservice/series.listar.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/util/funciones/json.hpack.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/util/funciones/definiciones.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/webservice/Cultivo.listar.php</file>
+            <file>file:/C:/xampp/htdocs/serviagroperu/datos/Conexion.clase.php</file>
+            <file>file:/C:/xampp/htdocs/serviagroperu/webservice/sesion.validar.php</file>
+            <file>file:/C:/xampp/htdocs/serviagroperu/negocio/Cliente.clase.php</file>
             <file>file:/C:/xampp/htdocs/serviagroperu/webservice/token.validar.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/util/funciones/Funciones.clase.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/vista/index.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/util/funciones/FuncionesWeb.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/vista/cabecera.vista.php</file>
-            <file>file:/C:/xampp/htdocs/serviagroperu/vista/agricultor.vista.php</file>
+            <file>file:/C:/xampp/htdocs/serviagroperu/negocio/Sesion.clase.php</file>
+            <file>file:/C:/xampp/htdocs/serviagroperu/negocio/Usuario.clase.php</file>
         </group>
     </open-files>
 </project-private>
