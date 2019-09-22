@@ -58,11 +58,10 @@ class Usuario extends Conexion {
 		agricultor.usuario as correo,
 		(case when usuario.estado = 'A' then 'ACTIVO' else 'INACTIVO' end) as estado
 		from
+                
 		usuario inner join agricultor
 		
-		on usuario.codigo_agricultor = agricultor.codigo_agricultor;
-		
-                  ";
+		on usuario.codigo_agricultor = agricultor.codigo_agricultor";
             $sentencia = $this->dblink->prepare($sql);
             $sentencia->execute();
             
