@@ -62,7 +62,6 @@ class Usuario extends Conexion {
 		
 		on usuario.codigo_agricultor = agricultor.codigo_agricultor;
 		
-		select * from usuario 
                   ";
             $sentencia = $this->dblink->prepare($sql);
             $sentencia->execute();
