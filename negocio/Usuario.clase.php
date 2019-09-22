@@ -52,7 +52,7 @@ class Usuario extends Conexion {
             
     public function listar(){
         try {
-            $sql = "Sselect 
+            $sql = "select 
 		usuario.codigo_usuario,
 		(agricultor.apellido_paterno || ' ' || agricultor.apellido_materno || ' ' || agricultor.nombres) as nombre,
 		agricultor.usuario as correo,
