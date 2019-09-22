@@ -52,16 +52,16 @@ class Usuario extends Conexion {
             
     public function listar(){
         try {
-            $sql = "select 
-		usuario.codigo_usuario,
-		(agricultor.apellido_paterno || ' ' || agricultor.apellido_materno || ' ' || agricultor.nombres) as nombre,
-		agricultor.usuario as usuario,
-		(case when usuario.estado = 'A' then 'ACTIVO' else 'INACTIVO' end) as estado
-		from
-                
-		usuario inner join agricultor
-		
-		on usuario.codigo_agricultor = agricultor.codigo_agricultor";
+            $sql = "SELECT 
+                    usuario.codigo_usuario,
+                    (agricultor.apellido_paterno||' '||agricultor.apellido_materno||' '||agricultor.nombres) as nombre_completo,
+                     agricultor.usuario,
+                    (case when usuario.estado = 'A' then 'ACTIVO' else 'INACTIVO' end) as estado
+                  FROM 
+                    public.usuario, 
+                    public.agricultor
+                  WHERE 
+                    agricultor.codigo_agricultor = usuario.codigo_agricultor;";
             $sentencia = $this->dblink->prepare($sql);
             $sentencia->execute();
             
