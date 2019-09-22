@@ -212,7 +212,19 @@ class Agricultor extends Conexion {
     public function leerDatos($p_codigoAgricultor) {
         try {
             $sql = "
-                    
+                    SELECT 
+                            codigo_agricultor, 
+                            apellido_paterno, 
+                            apellido_materno, 
+                            nombres, 
+                            direccion, 
+                            usuario, 
+                            num_celular, 
+                            codigo_departamento, 
+                            codigo_provincia, 
+                            codigo_distrito
+                        FROM agricultor
+                        where codigo_agricultor = :p_codigo_agricultor
                 ";
             
             $sentencia = $this->dblink->prepare($sql);
