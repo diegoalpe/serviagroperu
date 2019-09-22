@@ -55,7 +55,7 @@ class Usuario extends Conexion {
             $sql = "select 
 		usuario.codigo_usuario,
 		(agricultor.apellido_paterno || ' ' || agricultor.apellido_materno || ' ' || agricultor.nombres) as nombre,
-		agricultor.usuario as correo,
+		agricultor.usuario as usuario,
 		(case when usuario.estado = 'A' then 'ACTIVO' else 'INACTIVO' end) as estado
 		from
                 
